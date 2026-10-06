@@ -1,0 +1,520 @@
+{
+  "meta": {
+    "titre": "Diva d'Hélios – Coaching, formation & consulting · Paris · Casablanca",
+    "description": "Coaching, formation et consulting pour dirigeants et équipes. Fondée en 1994 par Antonin DENIS, coach certifié ICF. Paris et Casablanca."
+  },
+  "marque": {
+    "logo": "/images/logo-noir.png",
+    "logo_alt": "Diva d'Hélios Paris Casablanca"
+  },
+  "navigation": [
+    {
+      "label": "Fondateur",
+      "ancre": "#fondateur"
+    },
+    {
+      "label": "Savoir-faire",
+      "ancre": "#faire"
+    },
+    {
+      "label": "Recommandations",
+      "ancre": "#reco"
+    },
+    {
+      "label": "Contact",
+      "ancre": "#contact"
+    }
+  ],
+  "hero": {
+    "kicker": "Coaching · Formation · Consulting",
+    "titre_1": "Révéler les talents,",
+    "titre_em": "élever",
+    "titre_2": "la performance.",
+    "texte": "Diva d'Hélios accompagne dirigeants, managers et équipes qui veulent plus de résultats, avec exigence, élégance et bienveillance.",
+    "bouton_1": {
+      "label": "Prendre contact",
+      "lien": "#contact"
+    },
+    "bouton_2": {
+      "label": "Découvrir",
+      "lien": "#fondateur"
+    },
+    "villes": "Paris — Casablanca"
+  },
+  "marquee": [
+    "Révéler les talents",
+    "Oser décider",
+    "Réussir ensemble",
+    "Gagner en impact",
+    "Faire grandir les équipes",
+    "Passer à l'action",
+    "Devenir leader",
+    "Performer durablement",
+    "Plus de résultats",
+    "Prendre sa place"
+  ],
+  "fondateur": {
+    "numero": "01",
+    "label": "Le fondateur",
+    "titre_avant": "Antonin DENIS,",
+    "titre_em": "coach",
+    "titre_apres": "certifié ICF",
+    "photo": "/images/antonin-denis-coach.jpg",
+    "photo_alt": "Antonin DENIS, coach et fondateur de Diva d'Hélios",
+    "badge_haut": "Depuis",
+    "badge_bas": "1994",
+    "paragraphe_1": "En 1994, Antonin DENIS fonde Diva d'Hélios, société internationale de formation et de coaching. Trente ans plus tard, il accompagne des dirigeants, des comités de direction et des équipes à Paris, à Casablanca et partout où l'on a besoin de lui.",
+    "paragraphe_2": "Il intervient aussi dans l'Executive Mastère Leadership & Projets Innovants (CentraleSupélec). Sa méthode : des mises en situation concrètes, une écoute exigeante, des outils immédiatement applicables.",
+    "stats": [
+      {
+        "valeur": "1994",
+        "libelle": "Fondation",
+        "petit": false
+      },
+      {
+        "valeur": "300+",
+        "libelle": "Recommandations LinkedIn",
+        "petit": false
+      },
+      {
+        "valeur": "18",
+        "libelle": "Thèmes de formation",
+        "petit": false
+      },
+      {
+        "valeur": "Français & anglais",
+        "libelle": "Langues d'intervention",
+        "petit": true
+      }
+    ]
+  },
+  "savoir_faire": {
+    "numero": "02",
+    "label": "Savoir-faire",
+    "titre_avant": "Cinq façons de",
+    "titre_em": "travailler ensemble",
+    "titre_apres": "",
+    "items": [
+      {
+        "titre": "Formations & ateliers",
+        "texte": "Des ateliers pro-ludiques centrés sur la pratique : on s'exerce, on échange, on repart avec son plan d'action."
+      },
+      {
+        "titre": "Coaching d'équipe",
+        "texte": "Cohésion, coopération, vision commune. Un dispositif sur mesure, du dirigeant au séminaire collectif et au suivi des comités de direction."
+      },
+      {
+        "titre": "Team building",
+        "texte": "Créativité, défis et théâtralisation pour vivre des expériences qui soudent une équipe et donnent du sens au projet commun."
+      },
+      {
+        "titre": "Coaching individuel",
+        "texte": "Prise de poste, leadership, confiance en soi, communication : du temps pour prendre de la hauteur et gagner en autonomie."
+      },
+      {
+        "titre": "Audit & accompagnement",
+        "texte": "Un diagnostic structurel et fonctionnel pour repérer atouts et marges de progrès, puis un accompagnement pour passer à l'action."
+      }
+    ]
+  },
+  "formations": {
+    "numero": "03",
+    "label": "Catalogue",
+    "titre_avant": "Dix-huit",
+    "titre_em": "thèmes",
+    "titre_apres": "de formation",
+    "intro": "18 thématiques animées par Antonin DENIS, à adapter à vos enjeux.",
+    "themes": [
+      {
+        "titre": "Leadership authentique",
+        "texte": "Ajuster ses pratiques managériales, incarner un leadership positif et faire évoluer le niveau de maturité de ses équipes."
+      },
+      {
+        "titre": "Management hybride",
+        "texte": "Adopter une posture managériale adaptée aux contextes présentiel et distanciel."
+      },
+      {
+        "titre": "Management agile",
+        "texte": "Développer la flexibilité, l'adaptabilité et l'innovation au sein des équipes."
+      },
+      {
+        "titre": "Management intergénérationnel",
+        "texte": "Créer des ponts entre générations et instaurer une coopération efficace."
+      },
+      {
+        "titre": "Manager coach",
+        "texte": "Adopter la posture du coach pour faire grandir ses collaborateurs."
+      },
+      {
+        "titre": "Performance & émotions",
+        "texte": "Gérer le stress, les émotions et renforcer l'intelligence émotionnelle."
+      },
+      {
+        "titre": "Négociation conquérante",
+        "texte": "Optimiser ses ventes, sa rentabilité et son impact relationnel."
+      },
+      {
+        "titre": "Intelligence collective",
+        "texte": "Favoriser la coopération, la co-création et la responsabilité partagée."
+      },
+      {
+        "titre": "Résilience & empowerment",
+        "texte": "Transformer les crises en leviers d'évolution et de rebond."
+      },
+      {
+        "titre": "Rétention des talents & motivation",
+        "texte": "Engager les collaborateurs dans la durée et révéler leur plein potentiel."
+      },
+      {
+        "titre": "Estime de soi & assertivité",
+        "texte": "S'affirmer avec justesse et confiance dans ses interactions professionnelles."
+      },
+      {
+        "titre": "Positivisme & bien-être",
+        "texte": "Instaurer un climat de travail sain, stimulant et porteur de sens."
+      },
+      {
+        "titre": "Prise de parole, conviction & media training",
+        "texte": "Expliquer, convaincre et inspirer avec impact, y compris face caméra."
+      },
+      {
+        "titre": "Conduite de projets gagnants",
+        "texte": "Allier vision, planification et efficacité jusqu'à la réussite finale."
+      },
+      {
+        "titre": "Communication interpersonnelle",
+        "texte": "Fluidifier les échanges et prévenir les tensions relationnelles."
+      },
+      {
+        "titre": "Coaching d'équipe & de comité de direction",
+        "texte": "Favoriser la synergie, l'alignement et l'intelligence collective."
+      },
+      {
+        "titre": "Conduite de la transformation & du changement",
+        "texte": "Accompagner le changement de stratégie et d'organisation."
+      },
+      {
+        "titre": "Synergie interculturelle",
+        "texte": "Transformer la diversité culturelle en atout stratégique."
+      }
+    ]
+  },
+  "recommandations": {
+    "numero": "04",
+    "label": "Ils en parlent",
+    "titre_avant": "Plus de 300",
+    "titre_em": "recommandations",
+    "titre_apres": "",
+    "items": [
+      {
+        "citation": "Un coach exceptionnel, que je recommande sans hésiter à toute personne souhaitant progresser en prise de parole ou en leadership.",
+        "prenom": "Mohamed",
+        "fonction": "Head of Capital Markets"
+      },
+      {
+        "citation": "Antonin est coach mais on a juste envie qu’il soit un ami au long cours tellement son aide est impactante.",
+        "prenom": "Patrick",
+        "fonction": "Deputy VP Transformation"
+      },
+      {
+        "citation": "Antonin impacte, challenge et outille. Ses workshops cassent les silos de réflexion pour imposer une vision claire et orientée résultats.",
+        "prenom": "Fayçal",
+        "fonction": "Head of Sales, Grand Casablanca – Settat"
+      },
+      {
+        "citation": "Antonin est un homme brillant, patient, drôle, avec une qualité d’écoute exceptionnelle et une empathie à toute épreuve.",
+        "prenom": "Sofia",
+        "fonction": "Directrice Retail Media"
+      },
+      {
+        "citation": "Ton agilité, ton écoute et ton énergie rendent chaque moment inspirant.",
+        "prenom": "Nezha",
+        "fonction": "Membre du directoire en charge des Risques & RH"
+      },
+      {
+        "citation": "Tes valeurs, ta bienveillance, ton expérience et ton humanité m’ont aidé à progresser rapidement.",
+        "prenom": "Franck",
+        "fonction": "Responsable Maintenance"
+      },
+      {
+        "citation": "Son approche allie excellence pédagogique, pragmatisme et forte capacité d’inspiration.",
+        "prenom": "Mounir",
+        "fonction": "Directeur"
+      },
+      {
+        "citation": "Antonin fait progresser avec une justesse et une efficacité impressionnantes. Son discernement transforme les situations complexes en opportunités claires.",
+        "prenom": "Jérémie",
+        "fonction": "Directeur Supply Chain / COO"
+      },
+      {
+        "citation": "Les retours sont toujours excellents, et sa présence est souvent redemandée.",
+        "prenom": "Wafaa",
+        "fonction": "Portfolio Manager, Executive Education"
+      },
+      {
+        "citation": "Antonin a une grande capacité d’écoute qui lui permet de comprendre les problématiques et d’y trouver des solutions justes. Un grand professionnel.",
+        "prenom": "Fabrice",
+        "fonction": "Auteur et conférencier"
+      },
+      {
+        "citation": "Sa méthodologie combine un apprentissage par la théorie mais aussi par des mises en situation et des cas pratiques inspirés de notre vécu professionnel et personnel quotidien.",
+        "prenom": "Amine",
+        "fonction": "Directeur adjoint, Trésorerie, financement et Middle Office"
+      },
+      {
+        "citation": "Antonin, en plus d’avoir été une année mon coach, je peux l’affirmer, c’est l’une des rencontres capables de bouleverser toute une vie.",
+        "prenom": "Matthieu",
+        "fonction": "Ingénieur Travaux Réhabilitation"
+      },
+      {
+        "citation": "J’ai particulièrement apprécié sa capacité à rendre les concepts simples, concrets et directement applicables.",
+        "prenom": "Soumia",
+        "fonction": "Directrice ESG & Certifications"
+      },
+      {
+        "citation": "Bien plus qu’une aide, cela a été un plaisir et une chance de pouvoir m’appuyer sur tes précieux conseils.",
+        "prenom": "Olivier",
+        "fonction": "Directeur national des ventes"
+      },
+      {
+        "citation": "Une approche authentique, moderne et très interactive, avec une réelle maîtrise des techniques de développement personnel.",
+        "prenom": "Adil",
+        "fonction": "Head of Risk Management"
+      },
+      {
+        "citation": "Au-delà de ses qualités incontestables en tant que coach et accompagnateur, il a une approche à la fois originale et efficace.",
+        "prenom": "Cédric",
+        "fonction": "Directeur associé"
+      },
+      {
+        "citation": "Antonin a su nous amener à questionner notre posture de leader, mais aussi à identifier nos propres talents et leviers de motivation.",
+        "prenom": "Salma",
+        "fonction": "Responsable Digital"
+      },
+      {
+        "citation": "Tu as su créer un environnement toujours bienveillant, où j’ai pu me sentir à l’aise et véritablement écouté.",
+        "prenom": "Kévin",
+        "fonction": "Directeur"
+      },
+      {
+        "citation": "Un vrai coach qui partage avec authenticité, humilité et respect son savoir-être et son savoir-faire.",
+        "prenom": "Abdelilah",
+        "fonction": "Responsable commercial régional"
+      },
+      {
+        "citation": "C’est une personne profondément humaine, très à l’écoute et d’un conseil avisé.",
+        "prenom": "Adrien",
+        "fonction": "CTO"
+      }
+    ],
+    "lien_texte": "Toutes les recommandations sur LinkedIn",
+    "lien_url": "https://www.linkedin.com/in/antonindenis/"
+  },
+  "references": {
+    "numero": "05",
+    "label": "Références",
+    "titre_avant": "Ils nous font",
+    "titre_em": "confiance",
+    "titre_apres": "",
+    "noms": [
+      "L'Oréal",
+      "Dior",
+      "Cartier",
+      "Pernod Ricard",
+      "Samsung",
+      "Orange",
+      "BNP Paribas",
+      "Arval",
+      "Société Générale",
+      "Crédit Agricole",
+      "Caisse d'Epargne",
+      "Attijariwafa Bank",
+      "RMA",
+      "Bank of Africa",
+      "Capgemini",
+      "Deloitte",
+      "Mazars",
+      "Altran",
+      "Safran",
+      "Stellantis",
+      "Saint-Gobain",
+      "Schneider Electric",
+      "ENGIE",
+      "GRDF",
+      "Enedis",
+      "Holcim",
+      "Colas",
+      "Sonasid",
+      "GEFCO",
+      "Bouygues",
+      "Bel",
+      "Tefal",
+      "Lesieur",
+      "Auchan",
+      "Groupama",
+      "Generali",
+      "Qonto",
+      "PayFit",
+      "Alma",
+      "Pigment",
+      "Free",
+      "Iliad",
+      "SEB",
+      "SoundCloud",
+      "Deezer",
+      "Voodoo",
+      "Ubisoft",
+      "CentraleSupélec",
+      "EXED",
+      "DGFIP"
+    ]
+  },
+  "bandeaux": [
+    {
+      "apres": "fondateur",
+      "image": "/images/bandeau-1.jpg",
+      "texte": "Réussir ensemble",
+      "alignement": "gauche",
+      "decale": false,
+      "position_pc": "50% 40%",
+      "position_mobile": "40% 40%"
+    },
+    {
+      "apres": "faire",
+      "image": "/images/bandeau-2.jpg",
+      "texte": "Passer à l'action",
+      "alignement": "gauche",
+      "decale": false,
+      "position_pc": "50% 30%",
+      "position_mobile": "79% 30%"
+    },
+    {
+      "apres": "formations",
+      "image": "/images/bandeau-3.jpg",
+      "texte": "Oser décider",
+      "alignement": "droite",
+      "decale": false,
+      "position_pc": "50% 30%",
+      "position_mobile": "37% 30%"
+    },
+    {
+      "apres": "reco",
+      "image": "/images/bandeau-4.jpg",
+      "texte": "Devenir leader",
+      "alignement": "gauche",
+      "decale": true,
+      "position_pc": "50% 8%",
+      "position_mobile": "59% 20%"
+    }
+  ],
+  "contact": {
+    "numero": "",
+    "label": "Contact",
+    "titre_avant": "Parlons de votre",
+    "titre_em": "ambition",
+    "titre_apres": "",
+    "texte": "Dites-nous ce que vous voulez faire avancer. La démarche se construit avec vous, sur mesure.",
+    "tel_fr_label": "France",
+    "tel_ma_label": "Maroc",
+    "tel_fr": "47 91 16 99 6 33+",
+    "tel_ma": "93 28 69 85 6 212+",
+    "tel_fr_legal": "47 91 16 99 6 )0( 33+",
+    "tel_ma_legal": "93 28 69 85 6 )0( 212+",
+    "email": "moc.soilehdavid@tcatnoc",
+    "cle_web3forms": "REMPLACER_PAR_LA_CLE_WEB3FORMS",
+    "formulaire": {
+      "nom": "Votre nom",
+      "email": "Votre email",
+      "message": "Votre message",
+      "bouton": "Envoyer",
+      "mention": "Vos données servent uniquement à répondre à votre message.",
+      "lien_confidentialite": "Politique de confidentialité"
+    },
+    "reseaux": [
+      {
+        "label": "antonindenis.com",
+        "url": "https://www.antonindenis.com/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/antonindenis/"
+      },
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/antonin.denis.coach/"
+      }
+    ]
+  },
+  "pied_de_page": {
+    "texte": "Diva d'Hélios · Coaching & Consulting · Paris · Casablanca",
+    "liens": [
+      {
+        "label": "Mentions légales",
+        "url": "/mentions-legales.html"
+      },
+      {
+        "label": "Politique de confidentialité",
+        "url": "/confidentialite.html"
+      }
+    ]
+  },
+  "mentions_legales": {
+    "titre": "Mentions légales",
+    "paragraphes": [
+      "Diva d'Hélios - 173, rue du Faubourg Saint Antoine 75011 Paris",
+      "☎ Maroc : {{tel_ma_legal}} - ☎ France : {{tel_fr_legal}}",
+      "SARL au capital de 7622 € - R.C.S. PARIS B 398 062 356 - N° TVA Intracommunautaire : FR01398062356",
+      "Directeur de la publication : Antonin DENIS, gérant.",
+      "Contact : {{email}}",
+      "Site hébergé par Cloudflare, Inc., 101 Townsend St, San Francisco, CA 94107, États-Unis - www.cloudflare.com"
+    ]
+  },
+  "confidentialite": {
+    "titre": "Politique de confidentialité",
+    "sections": [
+      {
+        "titre": "Responsable du traitement",
+        "paragraphes": [
+          "Diva d'Hélios, SARL, 173, rue du Faubourg Saint Antoine 75011 Paris (R.C.S. PARIS B 398 062 356), représentée par Antonin DENIS, gérant. Contact : contact [arobase] divadhelios [point] com"
+        ]
+      },
+      {
+        "titre": "Données collectées et finalité",
+        "paragraphes": [
+          "Le formulaire de contact recueille votre nom, votre adresse email et votre message, uniquement pour répondre à votre demande. Aucune autre donnée n'est collectée sur ce site. Il n'utilise ni cookie publicitaire, ni outil de mesure d'audience, ni traceur soumis à consentement."
+        ]
+      },
+      {
+        "titre": "Base légale",
+        "paragraphes": [
+          "Votre demande de contact et l'intérêt légitime de Diva d'Hélios à y répondre (article 6, paragraphe 1, points b et f du RGPD)."
+        ]
+      },
+      {
+        "titre": "Destinataires",
+        "paragraphes": [
+          "Vos données sont lues par Diva d'Hélios. Elles transitent par des prestataires techniques : Web3Forms (acheminement du formulaire), Google (messagerie) et Cloudflare (hébergement du site et redirection des emails). Ces prestataires peuvent être situés hors de l'Union européenne, notamment aux États-Unis ; les transferts s'appuient sur les garanties prévues par le RGPD (clauses contractuelles types ou cadre de protection des données UE-États-Unis)."
+        ]
+      },
+      {
+        "titre": "Durée de conservation",
+        "paragraphes": [
+          "Vos messages sont conservés le temps nécessaire au traitement de votre demande, puis au maximum trois ans après notre dernier échange."
+        ]
+      },
+      {
+        "titre": "Vos droits",
+        "paragraphes": [
+          "Vous disposez des droits d'accès, de rectification, d'effacement, d'opposition, de limitation et de portabilité. Pour les exercer, écrivez à contact [arobase] divadhelios [point] com . Vous pouvez aussi introduire une réclamation auprès de la CNIL (www.cnil.fr). Si vous résidez au Maroc, vous disposez des droits prévus par la loi n° 09-08 (Commission nationale de contrôle de la protection des données à caractère personnel, CNDP)."
+        ]
+      },
+      {
+        "titre": "Recommandations affichées",
+        "paragraphes": [
+          "Les extraits de recommandations sont issus d'avis publiés sur LinkedIn et présentés par prénom et fonction. Pour demander leur retrait, écrivez à contact [arobase] divadhelios [point] com ."
+        ]
+      }
+    ],
+    "maj": "Dernière mise à jour : octobre 2026."
+  }
+}

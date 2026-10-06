@@ -1,0 +1,428 @@
+# Interface d'administration (Decap CMS) : édite content/site.json
+backend:
+  name: github
+  repo: antonindenis/divadhelios
+  branch: main
+  base_url: https://divadhelios.com
+  auth_endpoint: api/auth
+site_url: https://divadhelios.com
+display_url: https://divadhelios.com
+locale: fr
+media_folder: images
+public_folder: /images
+publish_mode: simple
+collections:
+- name: contenu
+  label: Contenu du site
+  files:
+  - name: site
+    label: Tout le contenu du site
+    file: content/site.json
+    format: json
+    fields:
+    - name: meta
+      label: Référencement (Google)
+      widget: object
+      collapsed: true
+      fields:
+      - name: titre
+        label: Titre de la page
+        widget: string
+      - name: description
+        label: Description
+        widget: text
+    - name: hero
+      label: Haut de page
+      widget: object
+      collapsed: true
+      fields:
+      - name: kicker
+        label: Petit intitulé
+        widget: string
+      - name: titre_1
+        label: 'Titre : ligne 1'
+        widget: string
+      - name: titre_em
+        label: 'Titre : mot en jaune'
+        widget: string
+      - name: titre_2
+        label: 'Titre : suite de la ligne 2'
+        widget: string
+      - name: texte
+        label: Texte d'introduction
+        widget: text
+      - name: bouton_1
+        label: Bouton principal
+        widget: object
+        collapsed: true
+        fields:
+        - name: label
+          label: Texte
+          widget: string
+        - name: lien
+          label: 'Lien (ex. #contact)'
+          widget: string
+      - name: bouton_2
+        label: Bouton secondaire
+        widget: object
+        collapsed: true
+        fields:
+        - name: label
+          label: Texte
+          widget: string
+        - name: lien
+          label: 'Lien (ex. #fondateur)'
+          widget: string
+      - name: villes
+        label: Villes en bas à gauche
+        widget: string
+    - name: marquee
+      label: Accroches qui défilent
+      widget: list
+      field:
+        name: valeur
+        label: Accroche
+        widget: string
+    - name: fondateur
+      label: Présentation du fondateur
+      widget: object
+      collapsed: true
+      fields:
+      - &id001
+        name: numero
+        label: Numéro (ex. 02)
+        widget: string
+      - &id002
+        name: label
+        label: Petit intitulé (ex. Savoir-faire)
+        widget: string
+      - &id003
+        name: titre_avant
+        label: 'Titre : début'
+        widget: string
+      - &id004
+        name: titre_em
+        label: 'Titre : mot mis en valeur (jaune, italique)'
+        widget: string
+      - &id005
+        name: titre_apres
+        label: 'Titre : fin'
+        widget: string
+      - name: photo
+        label: Photo
+        widget: image
+      - name: photo_alt
+        label: Description de la photo (accessibilité)
+        widget: string
+      - name: badge_haut
+        label: 'Médaillon : haut'
+        widget: string
+      - name: badge_bas
+        label: 'Médaillon : année'
+        widget: string
+      - name: paragraphe_1
+        label: Paragraphe 1
+        widget: text
+      - name: paragraphe_2
+        label: Paragraphe 2 (gris)
+        widget: text
+      - name: stats
+        label: Chiffres clés
+        widget: list
+        fields:
+        - name: valeur
+          label: Chiffre ou mot
+          widget: string
+        - name: libelle
+          label: Légende
+          widget: string
+        - name: petit
+          label: Afficher en plus petit (pour du texte)
+          widget: boolean
+          default: false
+        summary: '{{valeur}}'
+    - name: savoir_faire
+      label: Savoir-faire
+      widget: object
+      collapsed: true
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - name: items
+        label: Les 5 façons de travailler ensemble
+        widget: list
+        fields:
+        - name: titre
+          label: Titre
+          widget: string
+        - name: texte
+          label: Texte
+          widget: text
+        summary: '{{titre}}'
+    - name: formations
+      label: Thèmes de formation
+      widget: object
+      collapsed: true
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - name: intro
+        label: Phrase d'introduction
+        widget: text
+      - name: themes
+        label: Thèmes
+        widget: list
+        fields:
+        - name: titre
+          label: Titre
+          widget: string
+        - name: texte
+          label: Description
+          widget: text
+        summary: '{{titre}}'
+    - name: recommandations
+      label: Recommandations
+      widget: object
+      collapsed: true
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - name: items
+        label: Citations
+        widget: list
+        fields:
+        - name: citation
+          label: Citation
+          widget: text
+        - name: prenom
+          label: Prénom
+          widget: string
+        - name: fonction
+          label: Fonction (sans nom d'entreprise)
+          widget: string
+        summary: '{{prenom}} – {{citation}}'
+      - name: lien_texte
+        label: Texte du lien
+        widget: string
+      - name: lien_url
+        label: Adresse du lien
+        widget: string
+    - name: references
+      label: Références clients
+      widget: object
+      collapsed: true
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - name: noms
+        label: Noms des clients
+        widget: list
+        field:
+          name: valeur
+          label: Nom
+          widget: string
+    - name: bandeaux
+      label: Bandeaux photo
+      widget: list
+      fields:
+      - name: apres
+        label: Placé après la section
+        widget: string
+        hint: fondateur, faire, formations ou reco
+      - name: image
+        label: Photo
+        widget: image
+      - name: texte
+        label: Phrase en grand
+        widget: string
+      - name: alignement
+        label: Position de la phrase
+        widget: select
+        options:
+        - gauche
+        - droite
+        default: gauche
+      - name: decale
+        label: Photo décalée à droite (visage à droite)
+        widget: boolean
+        default: false
+      - name: position_pc
+        label: Cadrage sur ordinateur
+        widget: string
+        hint: ex. 50% 30% (horizontal vertical)
+      - name: position_mobile
+        label: Cadrage sur téléphone
+        widget: string
+        hint: 'ex. 79% 30% : augmenter le premier nombre pour montrer la droite de la photo'
+      summary: '{{texte}}'
+    - name: contact
+      label: Contact
+      widget: object
+      collapsed: true
+      fields:
+      - *id001
+      - *id002
+      - *id003
+      - *id004
+      - *id005
+      - name: texte
+        label: Texte
+        widget: text
+      - name: tel_fr_label
+        label: Libellé bouton France
+        widget: string
+      - name: tel_ma_label
+        label: Libellé bouton Maroc
+        widget: string
+      - name: tel_fr
+        label: Téléphone France (affichage)
+        widget: string
+        hint: 'ÉCRIT À L''ENVERS pour échapper aux robots de spam : tapez-le de la dernière lettre à la première. Ex. : +33 6 99 61 19 74 devient 47 91 16 99 6 33+'
+      - name: tel_ma
+        label: Téléphone Maroc (affichage)
+        widget: string
+        hint: 'ÉCRIT À L''ENVERS pour échapper aux robots de spam : tapez-le de la dernière lettre à la première.'
+      - name: tel_fr_legal
+        label: Téléphone France (mentions légales)
+        widget: string
+        hint: 'ÉCRIT À L''ENVERS pour échapper aux robots de spam : tapez-le de la dernière lettre à la première.'
+      - name: tel_ma_legal
+        label: Téléphone Maroc (mentions légales)
+        widget: string
+        hint: 'ÉCRIT À L''ENVERS pour échapper aux robots de spam : tapez-le de la dernière lettre à la première.'
+      - name: email
+        label: Adresse email
+        widget: string
+        hint: 'ÉCRIT À L''ENVERS pour échapper aux robots de spam : tapez-le de la dernière lettre à la première. Ex. : contact@divadhelios.com devient moc.soilehdavid@tcatnoc'
+      - name: cle_web3forms
+        label: Clé Web3Forms (formulaire)
+        widget: string
+        hint: Clé reçue par email sur web3forms.com. Elle détermine l'adresse qui reçoit les messages.
+      - name: formulaire
+        label: Textes du formulaire
+        widget: object
+        collapsed: true
+        fields:
+        - name: nom
+          label: Libellé nom
+          widget: string
+        - name: email
+          label: Libellé email
+          widget: string
+        - name: message
+          label: Libellé message
+          widget: string
+        - name: bouton
+          label: Bouton
+          widget: string
+        - name: mention
+          label: Mention sous le formulaire
+          widget: string
+        - name: lien_confidentialite
+          label: Texte du lien confidentialité
+          widget: string
+      - name: reseaux
+        label: Liens (site, LinkedIn, Instagram…)
+        widget: list
+        fields:
+        - name: label
+          label: Texte
+          widget: string
+        - name: url
+          label: Adresse
+          widget: string
+        summary: '{{label}}'
+    - name: pied_de_page
+      label: Pied de page
+      widget: object
+      collapsed: true
+      fields:
+      - name: texte
+        label: Texte
+        widget: string
+      - name: liens
+        label: Liens légaux
+        widget: list
+        fields:
+        - name: label
+          label: Texte
+          widget: string
+        - name: url
+          label: Adresse
+          widget: string
+        summary: '{{label}}'
+    - name: mentions_legales
+      label: Mentions légales (page /mentions-legales.html)
+      widget: object
+      collapsed: true
+      fields:
+      - name: titre
+        label: Titre
+        widget: string
+      - name: paragraphes
+        label: Paragraphes
+        widget: list
+        field:
+          name: valeur
+          label: 'Paragraphe. Jetons : {{email}}, {{tel_fr_legal}}, {{tel_ma_legal}}'
+          widget: string
+    - name: confidentialite
+      label: Politique de confidentialité (page /confidentialite.html)
+      widget: object
+      collapsed: true
+      fields:
+      - name: titre
+        label: Titre
+        widget: string
+      - name: sections
+        label: Sections
+        widget: list
+        fields:
+        - name: titre
+          label: Titre de la section
+          widget: string
+        - name: paragraphes
+          label: Paragraphes
+          widget: list
+          field:
+            name: valeur
+            label: Paragraphe
+            widget: text
+        summary: '{{titre}}'
+      - name: maj
+        label: Mention de mise à jour
+        widget: string
+    - name: marque
+      label: Logo
+      widget: object
+      collapsed: true
+      fields:
+      - name: logo
+        label: Logo (fond clair)
+        widget: image
+      - name: logo_alt
+        label: Description du logo
+        widget: string
+    - name: navigation
+      label: Menu du haut
+      widget: list
+      fields:
+      - name: label
+        label: Texte
+        widget: string
+      - name: ancre
+        label: 'Ancre (ex. #fondateur)'
+        widget: string
+      summary: '{{label}}'

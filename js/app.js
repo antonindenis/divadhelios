@@ -17,9 +17,9 @@
   <div class="cities">${esc(hero.villes)}</div></section>
 <div class="band" aria-hidden="true"><div>${phrases}${phrases}</div></div>
 <section id="fondateur"><div class="wrap fond">
-  <div class="arch"><img src="${esc(fd.photo)}" alt="${esc(fd.photo_alt)}"><div class="sun"><span>${esc(fd.badge_haut)}<b>${esc(fd.badge_bas)}</b></span></div></div>
-  <div>${kicker(fd)}<h2>${h2(fd)}</h2><p>${esc(fd.paragraphe_1)}</p><p class="mut">${esc(fd.paragraphe_2)}</p>
-    <div class="stats">${fd.stats.map(s => `<div><b${s.petit ? ' class="sm"' : ''}>${esc(s.valeur)}</b><span>${esc(s.libelle)}</span></div>`).join('')}</div></div></div></section>
+  <div class="arch"><img src="${esc(fd.photo)}" alt="${esc(fd.photo_alt)}"></div>
+  <div>${kicker(fd)}<h2>${h2(fd)}</h2>${fd.sous_titre ? `<p class="sub">${esc(fd.sous_titre)}</p>` : ''}<p>${esc(fd.paragraphe_1)}</p><p class="mut">${esc(fd.paragraphe_2)}</p>
+    <div class="discs">${fd.stats.map(s => { const in_ = `<b>${esc(s.valeur)}</b><span>${esc(s.libelle)}</span>`; return s.lien ? `<a class="disc" href="${esc(s.lien)}" target="_blank" rel="noopener" aria-label="${esc(s.libelle)} (s'ouvre dans un nouvel onglet)">${in_}</a>` : `<div class="disc">${in_}</div>`; }).join('')}</div></div></div></section>
 ${bandeau('fondateur')}
 <section id="faire" class="dk"><div class="wrap">${kicker(sf)}<h2>${h2(sf)}</h2>
   ${sf.items.map((it, i) => `<div class="row"><small>${String(i + 1).padStart(2, '0')}</small><h3>${esc(it.titre)}</h3><p>${esc(it.texte)}</p></div>`).join('')}</div></section>

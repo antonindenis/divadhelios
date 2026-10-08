@@ -39,7 +39,7 @@
       "label": "Découvrir",
       "lien": "#fondateur"
     },
-    "villes": "Paris — Casablanca"
+    "villes": "Paris — Casablanca · Français & anglais"
   },
   "marquee": [
     "Révéler les talents",
@@ -58,35 +58,27 @@
     "label": "Le fondateur",
     "titre_avant": "Antonin DENIS,",
     "titre_em": "coach",
-    "titre_apres": "certifié ICF",
+    "titre_apres": "",
     "photo": "/images/antonin-denis-coach.jpg",
     "photo_alt": "Antonin DENIS, coach et fondateur de Diva d'Hélios",
-    "badge_haut": "Depuis",
-    "badge_bas": "1994",
     "paragraphe_1": "En 1994, Antonin DENIS fonde Diva d'Hélios, société internationale de formation et de coaching. Trente ans plus tard, il accompagne des dirigeants, des comités de direction et des équipes à Paris, à Casablanca et partout où l'on a besoin de lui.",
-    "paragraphe_2": "Il intervient aussi dans l'Executive Mastère Leadership & Projets Innovants (CentraleSupélec). Sa méthode : des mises en situation concrètes, une écoute exigeante, des outils immédiatement applicables.",
+    "paragraphe_2": "Il intervient en français et en anglais, y compris dans l'Executive Mastère Leadership & Projets Innovants (CentraleSupélec). Sa méthode : des mises en situation concrètes, une écoute exigeante, des outils immédiatement applicables.",
     "stats": [
       {
         "valeur": "1994",
-        "libelle": "Fondation",
-        "petit": false
+        "libelle": "Fondation de Diva d'Hélios"
       },
       {
         "valeur": "300+",
         "libelle": "Recommandations LinkedIn",
-        "petit": false
+        "lien": "https://www.linkedin.com/in/antonindenis/"
       },
       {
         "valeur": "18",
-        "libelle": "Thèmes de formation",
-        "petit": false
-      },
-      {
-        "valeur": "Français & anglais",
-        "libelle": "Langues d'intervention",
-        "petit": true
+        "libelle": "Thèmes de formation"
       }
-    ]
+    ],
+    "sous_titre": "Certifié ICF"
   },
   "savoir_faire": {
     "numero": "02",

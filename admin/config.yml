@@ -108,17 +108,15 @@ collections:
         name: titre_apres
         label: 'Titre : fin'
         widget: string
+      - name: sous_titre
+        label: Sous-titre sous le nom (ex. Certifié ICF, en petit)
+        widget: string
+        required: false
       - name: photo
         label: Photo
         widget: image
       - name: photo_alt
         label: Description de la photo (accessibilité)
-        widget: string
-      - name: badge_haut
-        label: 'Médaillon : haut'
-        widget: string
-      - name: badge_bas
-        label: 'Médaillon : année'
         widget: string
       - name: paragraphe_1
         label: Paragraphe 1
@@ -136,10 +134,10 @@ collections:
         - name: libelle
           label: Légende
           widget: string
-        - name: petit
-          label: Afficher en plus petit (pour du texte)
-          widget: boolean
-          default: false
+        - name: lien
+          label: Lien au clic (facultatif, s'ouvre dans un nouvel onglet)
+          widget: string
+          required: false
         summary: '{{valeur}}'
     - name: savoir_faire
       label: Savoir-faire

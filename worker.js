@@ -1,8 +1,25 @@
 // Worker Cloudflare : sert les fichiers du site et gère la connexion GitHub de l'admin (/api/auth, /api/callback)
+// Anciennes pages de l'ancien site, redirigées vers les sections du nouveau
+const REDIRECTIONS = {
+  '/interventions': '/#faire',
+  '/equipe': '/#fondateur',
+  '/references': '/#clients',
+  '/about': '/mentions-legales.html',
+  '/j/legal-guarantee': '/',
+  '/j/withdrawal': '/'
+};
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
-    if (url.hostname.startsWith('www.')) { url.hostname = url.hostname.slice(4); return Response.redirect(url.toString(), 301); }
+    // Anciennes adresses de l'ancien site (Jimdo) : redirection permanente vers la bonne section
+    const cle = url.pathname.replace(/\/+$/, '').toLowerCase() || '/';
+    const cible = REDIRECTIONS[cle];
+    if (url.hostname.startsWith('www.') || cible) {
+      const dest = new URL(cible || (url.pathname + url.search), url);
+      dest.hostname = url.hostname.replace(/^www\./, '');
+      return Response.redirect(dest.toString(), 301);
+    }
     if (url.pathname === '/api/auth') return auth(url, env);
     if (url.pathname === '/api/callback') return callback(url, request, env);
     const res = await env.ASSETS.fetch(request);
